@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #dcdcdc;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    color: #dcdcdc;
+    background-color: #0a3d62;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    outline: none;
+    padding: 20px;
+    margin: 1rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+input::placeholder{
+    color: #dcdcdc;
+}
+
+input:focus::placeholder{
+    color: #a1a1a1;
+}
+
+.card{
+    width: 700px;
+    background-color: #0a3d62;
+    border-radius: 40px;
+    display: flex;
+    /* align-items: center; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+h2{
+    margin: 0;
+}
+
+img{
+    margin: 2rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 15px #0c2461 solid;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.repos{
+    justify-content: start;
+}
+
+.repos li{
+    background-color: #0c2461;
+    padding: 0.6rem;
+    border-radius: 20px;
+    margin: 0.5rem 1rem 0 0;
+    cursor: pointer;
+}
+
+.desc{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1.2rem;
+}
+
+.desc-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc-center{
+    font-size: large;
+}
+
+.desc-bottom{
+    font-weight: 500;
+}
